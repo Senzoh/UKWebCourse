@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet">
+  <script src="/components/components.js" defer></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header id="nav-container" class="z-50 sticky top-0"></header>
+
+  <!-- Hero -->
+  <section class="relative h-[75vh] bg-cover bg-center" style="background-image: url('images/hero.webp')">
+    <!-- Overlay dark background for readability (optional) -->
+    <div class="absolute inset-0 bg-black/5"></div>
+
+    <!-- Centered call-to-action content -->
+    <div class="absolute inset-0 flex items-center justify-center sm:justify-start">
+      <div class="flex flex-col justify-center max-w-lg w-full h-full px-8 sm:ml-30 backdrop-blur-sm bg-white/15 rounded-md shadow-lg">
+          <div class="space-y-2 text-center">
+            <p class="text-3xl md:text-4xl mb-3 text-left font-bold text-blue-900 drop-shadow-[0_2px_4px_rgba(255,255,255,0.7)]">
+              <span class="text-black">Make Learning</span><br>
+              <span class="text-purple-600">Fun & Easy</span> <br>
+              <span class="text-amber-600">For Kids!</span>
+              <!-- Get expert physiotherapy support from anywhere, at your convenience. -->
+            </p>
+            <p class="text-black text-base mb-3 text-left md:text-lg opacity-90">
+              Interactive courses designed specifically for children ages 5-15. From math and science to art and coding
+               - let your child explore, discover, and excel!
+            </p>
+          </div>
+          
+          <div class="flex justify-start">
+            <a href="/pages/contact-us/contact-us.html" class="py-4 px-9 bg-purple-500 hover:bg-amber-600 text-white font-medium rounded-md shadow-sm transition duration-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1">
+              Contact Us!
+            </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer-container"></footer>
+</body>
+</html>
